@@ -6,6 +6,8 @@
 
 4. file - settings - module - Plugins - 검색(flutter) - install
 
+4-1. git - clone(아래꺼 거의설치됨)
+
 5. 안드로이드 스튜디오 - File - New - New Flutter Project - beerwiki 생성
 
 6. pubspec.yaml
