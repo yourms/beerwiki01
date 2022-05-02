@@ -1,28 +1,36 @@
-1. 안드로이드 스튜디오 - File - New - New Flutter Project - beerwiki 생성
+1. java 설치 (확인 : cmd java -version)
 
-2. pubspec.yaml 
+2. 안드로이드 설치 (sdk 32로)
 
-3. lib 파일 복사
+3. 플루터 설치
 
-4. ios - Runner - Assets.xcassets 복사 (App 아이콘)
+4. file - settings - module - Plugins - 검색(flutter) - install
 
-5. ios - Runner - Info.plist - CFBundleDisplayName의 string을 BeerWiki로 변경(App 라벨)
+5. 안드로이드 스튜디오 - File - New - New Flutter Project - beerwiki 생성
 
-6. ios - Runner - Info.plist - 마지막에 아래 두줄 추가
+6. pubspec.yaml
+
+7. lib 파일 복사
+
+8. ios - Runner - Assets.xcassets 복사 (App 아이콘)
+
+9. ios - Runner - Info.plist - CFBundleDisplayName의 string을 BeerWiki로 변경(App 라벨)
+
+10. ios - Runner - Info.plist - 마지막에 아래 두줄 추가
 <key>NSPhotoLibraryUsageDescription</key>
 <string>Example usage description</string> 
 
-7. android - app - src - debug - AndroidManifest.xml & Profile - AndroidManifest.xml에 추가
+11. android - app - src - debug - AndroidManifest.xml & Profile - AndroidManifest.xml에 추가
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
 
-8. android - app - src - main - AndroidManifest.xml label 수정
+12. android - app - src - main - AndroidManifest.xml label 수정
 android:label="BeerWiki"
 
-10. android - app - src - maiin - res - minmap-* - ic_launcher.png 파일을 모두 복사(App 아이콘)
+13. android - app - src - maiin - res - minmap-* - ic_launcher.png 파일을 모두 복사(App 아이콘)
 
-11. android - app - build.gradle 수정(복사)
+14. android - app - build.gradle 수정(복사)
 - GradleException -> FileNotFoundException 으로 변경
 - compileSdkVersion 31
 - minSdkVersion 21
@@ -34,9 +42,9 @@ aaptOptions {
 }
 
  
-12. assets 폴더 만들어서 label, tflite, beer_img_01.jpeg 복사
+15. assets 폴더 만들어서 label, tflite, beer_img_01.jpeg 복사
 
-13. 터미널에서  > flutter pub get 
+16. 터미널에서  > flutter pub get
 
 
 
